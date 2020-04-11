@@ -1094,9 +1094,7 @@
 			}
 			typeWriter();
 		</script>
-		<video controls>
-  <audio controls>
-  <source src="https://drive.google.com/file/d/1qMM7cFwmlffPeKOD-Hl8Czk4m1vsTwrE/view?usp=sharing" type="audio/mp3">
-</audio>
-	</body>
+		
+
+			<iframe width="15%" height="80" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314943651&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 </html>
