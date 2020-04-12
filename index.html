@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	  <title>Cebol</title>
+	  <title><3</title>
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -872,7 +872,7 @@
 				S=s;
 
 				if (H<3){
-					txt='Have a Good Night Cebol:)';
+					txt='Have a Good Night Cebol';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
@@ -884,7 +884,7 @@
 					txt2=txt;
 				}
 				else if(H<8){
-					txt='Good Morning Resa ❤ ';
+					txt='Good Morning ❤ ';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
@@ -914,7 +914,7 @@
 					txt2=txt;
 				}
 				else if(H<21){
-					txt='Thank you for today :)';
+					txt='Thanks for today';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
@@ -953,7 +953,7 @@
 						morning();
 					}
 					else if(h<15){
-						noon();
+						ubuntu();
 					}
 					else if(h<16){
 						afternoon();
@@ -991,6 +991,9 @@
 				else if(H<9){
 					morning();
 				}
+				else if(H<15){
+					ubuntu();
+				}
 				else if(H<17){
 					noon();
 				}
@@ -1020,8 +1023,12 @@
 			    "source": "Imam Syafi'i"
 			  },
 			  {
-			    "quote": "aku disini yang berusaha, masih mmengharapkan cinta dan sayangmu",
-			    "source": "Andika Sujanadi"
+			    "quote": "aku disini yang berusaha, dan masih mengharapkanmu",
+			    "source": ""
+			  },
+			  {
+			    "quote": "apakah aku harus pergi agar kau sadar betapa berharganya kebersamaan",
+			    "source": ""
 			  },
 			  {
 			    "quote": "ada yang sedang berjuang tapi bukan pahlawan",
@@ -1043,7 +1050,14 @@
 			    "quote": "You don't lose, You learn",
 			    "source": "Andika Sujanadi"
 			  },
-			  
+			  {
+			    "quote": "Jika ku suatu saat pergi, aku akan kembali jika didalam hatimu sudah benar-benar tidak ada orang lain",
+			    "source": ""
+			  },
+			  {
+			    "quote": "Didepanmu aku berpura-pura tegar untuk ikhlas, namun nyatanya dibelakangmu aku selalu meminta kepada-Nya untuk kau kembali kepadaku",
+			    "source": "noegrouhoe"
+			  },
 			  {
 			    "quote": "Every failure, rejection, betrayal should be the reason for you to come back stronger in life by working on goals and achiving them",
 			    "source": "Andika Sujanadi"
@@ -1061,6 +1075,10 @@
 			    "source": "Baskara"
 			  },
 			  {
+			    "quote": "Mungkin ada benarnya Cinta paling tinggi adalah Ikhlas",
+			    "source": "noegrouhoe"
+			  },
+			  {
 			    "quote": "Dunia tak lagi sama tak selamanya memihak kita, disaat kita mau berusaha disitulah kebahagiaan akan indah pada waktunya.",
 			    "source": ""
 			  },
@@ -1071,10 +1089,10 @@
 			  },
 			  {
 			    "quote": "Aku Sayang Kamu",
-			    "source": ""
+			    "source": "noegrouhoe"
 			  },
 			]
-			setInterval(randomQuote, 60000);
+			setInterval(randomQuote, 6000);
 			function randomQuote(){
 			  let random = quotes[Math.floor(Math.random() * quotes.length)];
 			  quotation.innerText = `"${random.quote}"`;
@@ -1103,7 +1121,4 @@
 			}
 			typeWriter();
 		</script>
-		
-
-			<iframe width="15%" height="80" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314943651&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 </html>
