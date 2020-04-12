@@ -883,14 +883,20 @@
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
-				else if(H<9){
-					txt='Good Morning Resa <3 ';
+				else if(H<8){
+					txt='Good Morning Resa ❤ ';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
-				else if(H<12){
-					txt='Be Happy Today:)';
+				else if(H<10){
+					txt='Be Happy Have a nice day';
+					if(txt != txt2 && !starting)
+						document.getElementById("quote").innerHTML = txt;
+					txt2=txt;
+				}
+				else if(H<15){
+					txt='Ganbatte, for start working today ';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
@@ -914,7 +920,7 @@
 					txt2=txt;
 				}
 				else if(H<22){
-					txt='Thank you for today :)';
+					txt='Thank you for today, Take a Rest ✿';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
@@ -940,13 +946,16 @@
 					else if(h<6){
 						dawn();
 					}
-					else if(h<9){
+					else if(h<8){
 						morning();
 					}
-					else if(h<17){
+					else if(h<10){
+						morning();
+					}
+					else if(h<15){
 						noon();
 					}
-					else if(h<18){
+					else if(h<16){
 						afternoon();
 					}
 					else if(h<19){
@@ -1062,7 +1071,7 @@
 			  },
 			  {
 			    "quote": "Aku Sayang Kamu",
-			    "source": "noegrouhoe"
+			    "source": ""
 			  },
 			]
 			setInterval(randomQuote, 60000);
